@@ -40,5 +40,4 @@ jobs:
     - name: Check if Streamlit app runs
       run: |
         streamlit run app.py --server.headless true &
-        sleep 10
         pkill streamlit
